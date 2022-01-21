@@ -1,7 +1,7 @@
 # read_efg
 Simple script to read Vzz and eta components of the electric field gradient from the gipaw output file
 
-Usage: python get_efg --inp=input_file_name --loc=atom_location
+Usage: python get_efg.py --inp=input_file_name --loc=atom_location
 
 atom_location is the atom number in the ATOMIC_POSITIONS section of the Quantum ESPRESSO input file.
 
